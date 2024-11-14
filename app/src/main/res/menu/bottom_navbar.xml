@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home_botnav"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:title="Profile"
+        android:id="@+id/profile_botnav"
+        android:icon="@drawable/ic_account"
+
+        />
+    <item android:title="Setting"
+        android:id="@+id/setting_botnav"
+        android:icon="@drawable/ic_lock"
+
+        />
+
+<!--    <item android:title="Logout"-->
+<!--        android:id="btn_logout"-->
+<!--        android:icon="@drawable/bg_button"-->
+
+<!--        />-->
+</menu>

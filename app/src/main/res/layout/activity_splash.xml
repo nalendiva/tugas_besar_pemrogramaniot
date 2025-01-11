@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/Title"
-            android:text="My Calculator App"
+            android:text="My Robot"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -68,43 +68,43 @@
 
 
         <!-- Nama -->
-        <TextView
-            android:id="@+id/tv_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Muhammad Nalendra Zaradiva"
-            android:textSize="18sp"
-            style="@style/SubTitle"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/progress_bar"/>
+<!--        <TextView-->
+<!--            android:id="@+id/tv_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Muhammad Nalendra Zaradiva"-->
+<!--            android:textSize="18sp"-->
+<!--            style="@style/SubTitle"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/progress_bar"/>-->
 
-        <!-- NIM -->
-        <TextView
-            android:id="@+id/tv_nim"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            style="@style/SubTitle"
-            android:text="NIM: 152022112"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_name"/>
+<!--        &lt;!&ndash; NIM &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_nim"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            style="@style/SubTitle"-->
+<!--            android:text="NIM: 152022112"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_name"/>-->
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/splash_profile_picture"
-            android:layout_width="69dp"
-            android:layout_height="69dp"
-            android:layout_marginTop="24dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_nim"
-            android:src="@drawable/nalendra"/>
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/splash_profile_picture"-->
+<!--            android:layout_width="69dp"-->
+<!--            android:layout_height="69dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_nim"-->
+<!--            android:src="@drawable/nalendra"/>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -12,6 +12,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.authenticationapp2.databinding.ActivityHomeBinding
+import com.example.tugasbesariot.ControllingFragment
+import com.example.tugasbesariot.MonitoringFragment
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
@@ -25,8 +27,7 @@ class HomeActivity : AppCompatActivity() {
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        replaceFragment(HomeFragment())
-
+        replaceFragment(ControllingFragment())
 
         // Mendapatkan referensi ke TextView yang menampilkan tanggal
         val tvDate = findViewById<TextView>(R.id.tv_date)
@@ -67,8 +68,8 @@ class HomeActivity : AppCompatActivity() {
 
         binding.buttonNavigationView.setOnItemSelectedListener {
             when(it.itemId){
-                R.id.home_botnav -> replaceFragment(HomeFragment())
-                R.id.profile_botnav->replaceFragment(ProfileFragment())
+                R.id.home_botnav -> replaceFragment(ControllingFragment())
+                R.id.profile_botnav->replaceFragment(MonitoringFragment())
                 R.id.setting_botnav->replaceFragment(SettingFragment())
                 else ->{
                 }

@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <!-- Line Chart -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/line_chart_container"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#EEEEEE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Grafik Data Robot"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Tombol Refresh -->
+        <Button
+            android:id="@+id/button_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh Data"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@color/primary_color"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

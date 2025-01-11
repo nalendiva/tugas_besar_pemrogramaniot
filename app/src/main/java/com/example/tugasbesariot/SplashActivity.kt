@@ -34,17 +34,17 @@ class SplashActivity : AppCompatActivity() {
         }
 
         val fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+//
+//        // Mulai animasi
+//        val splashProfilePicture = findViewById<ImageView>(R.id.splash_profile_picture)
+//        val tvAppTitle = findViewById<TextView>(R.id.tv_app_title)
+//        val tvName = findViewById<TextView>(R.id.tv_name)
+//        val tvNim = findViewById<TextView>(R.id.tv_nim)
 
-        // Mulai animasi
-        val splashProfilePicture = findViewById<ImageView>(R.id.splash_profile_picture)
-        val tvAppTitle = findViewById<TextView>(R.id.tv_app_title)
-        val tvName = findViewById<TextView>(R.id.tv_name)
-        val tvNim = findViewById<TextView>(R.id.tv_nim)
-
-        splashProfilePicture.startAnimation(fadeIn)
-        tvAppTitle.startAnimation(fadeIn)
-        tvName.startAnimation(fadeIn)
-        tvNim.startAnimation(fadeIn)
+//        splashProfilePicture.startAnimation(fadeIn)
+//        tvAppTitle.startAnimation(fadeIn)
+//        tvName.startAnimation(fadeIn)
+//        tvNim.startAnimation(fadeIn)
 
     }
     private fun GotoMainActiviy(){
